@@ -3,7 +3,7 @@ game 'gta5'
 
 description 'qbx_drugs'
 repository 'https://github.com/Qbox-project/qbx_drugs'
-version '1.0.0'
+version '1.0.1'
 
 ox_lib 'locale'
 
@@ -19,6 +19,7 @@ client_scripts {
 }
 
 server_scripts {
+	'server/pn-lib-config.lua',
     '@oxmysql/lib/MySQL.lua',
     'server/deliveries.lua',
     'server/cornerselling.lua',
